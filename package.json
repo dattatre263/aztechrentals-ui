@@ -12,7 +12,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:ts": "tsc",
+    "prebuild": "npm run build:ts"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
